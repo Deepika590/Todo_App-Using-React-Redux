@@ -1,0 +1,87 @@
+/* AddUser.css */
+
+.Add {
+  text-align: center;
+  margin: 150px auto 10px auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(168, 167, 167, 0.1);
+  width: 400px;
+}
+
+.Add h1 {
+  font-size: 24px;
+  color: #030101;
+  margin-bottom: 20px;
+}
+
+.Add input {
+  padding: 10px;
+  width: 80%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.Add button {
+  padding: 10px 20px;
+  background-color: #3535f7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* ViewUsers.css */
+
+.view {
+  text-align: center;
+  margin:auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+
+}
+
+.view h1 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #080303;
+  margin-top:0px;
+  margin-bottom: 20px;
+}
+
+.view ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(190, 188, 188, 0.1);
+}
+
+.view li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 12px;
+  color: #444343;
+}
+
+.view button {
+  padding: 5px 10px;
+  background-color:#3535f7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
